@@ -1,0 +1,24 @@
+DEBUG:minizinc:CLIDriver:run -> command: "/usr/local/bin/minizinc --allow-multiple-assignments --solvers-json --json-stream"
+DEBUG:minizinc:CLIDriver:run -> command: "/usr/local/bin/minizinc --solver ortools@9.8.3296 --allow-multiple-assignments --model-interface-only attack.mzn --json-stream"
+DEBUG:minizinc:CLIInstance:analyse -> output fields: [('objective', <class 'numbers.Number'>), ('xu', typing.List[typing.List[typing.List[int]]]), ('yu', typing.List[typing.List[typing.List[int]]]), ('pu', typing.List[typing.List[typing.List[int]]]), ('xmu', typing.List[typing.List[typing.List[int]]]), ('ymu', typing.List[typing.List[typing.List[int]]]), ('dmu', typing.List[typing.List[int]]), ('xml', typing.List[typing.List[typing.List[int]]]), ('yml', typing.List[typing.List[typing.List[int]]]), ('dml', typing.List[typing.List[int]]), ('xl', typing.List[typing.List[typing.List[int]]]), ('yl', typing.List[typing.List[typing.List[int]]]), ('pl', typing.List[typing.List[typing.List[int]]]), ('PU', <class 'int'>), ('CM', <class 'int'>), ('CL', <class 'int'>), ('NASM', <class 'int'>), ('_checker', <class 'str'>)]
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:minizinc:CLIDriver:create_process -> program: /usr/local/bin/minizinc args: "--solver ortools@9.8.3296 --allow-multiple-assignments --output-mode json --output-time --output-objective --output-output-item --statistics --intermediate-solutions --parallel 8 --random-seed 89 -O 2 --time-limit 36000000 attack.mzn /tmp/mzn_data78alwktm.json --json-stream"
+INFO:gurobipy.gurobipy:Set parameter Username
+INFO:gurobipy.gurobipy:Academic license - for non-commercial use only - expires 2024-06-10
+INFO:gurobipy.gurobipy:Read LP format model from file KNOT-256-4r.lp
+INFO:gurobipy.gurobipy:Reading time = 0.01 seconds
+INFO:gurobipy.gurobipy:: 11009 rows, 2816 columns, 51968 nonzeros
+INFO:gurobipy.gurobipy:Set parameter PoolSearchMode to value 2
+INFO:gurobipy.gurobipy:Set parameter PoolSolutions to value 1
+DEBUG:minizinc:CLIDriver:run -> command: "/usr/local/bin/minizinc --allow-multiple-assignments --solvers-json --json-stream"
+DEBUG:minizinc:CLIDriver:run -> command: "/usr/local/bin/minizinc --solver ortools@9.8.3296 --allow-multiple-assignments --model-interface-only attack.mzn --json-stream"
+DEBUG:minizinc:CLIInstance:analyse -> output fields: [('objective', <class 'numbers.Number'>), ('xu', typing.List[typing.List[typing.List[int]]]), ('yu', typing.List[typing.List[typing.List[int]]]), ('pu', typing.List[typing.List[typing.List[int]]]), ('xmu', typing.List[typing.List[typing.List[int]]]), ('ymu', typing.List[typing.List[typing.List[int]]]), ('dmu', typing.List[typing.List[int]]), ('xml', typing.List[typing.List[typing.List[int]]]), ('yml', typing.List[typing.List[typing.List[int]]]), ('dml', typing.List[typing.List[int]]), ('xl', typing.List[typing.List[typing.List[int]]]), ('yl', typing.List[typing.List[typing.List[int]]]), ('pl', typing.List[typing.List[typing.List[int]]]), ('PU', <class 'int'>), ('CM', <class 'int'>), ('CL', <class 'int'>), ('NASM', <class 'int'>), ('_checker', <class 'str'>)]
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:minizinc:CLIDriver:create_process -> program: /usr/local/bin/minizinc args: "--solver ortools@9.8.3296 --allow-multiple-assignments --output-mode json --output-time --output-objective --output-output-item --statistics --intermediate-solutions --parallel 8 --random-seed 91 -O 2 --time-limit 36000000 attack.mzn /tmp/mzn_dataw_om7ih9.json --json-stream"
+INFO:gurobipy.gurobipy:Set parameter Username
+INFO:gurobipy.gurobipy:Academic license - for non-commercial use only - expires 2024-06-10
+INFO:gurobipy.gurobipy:Read LP format model from file KNOT-256-4r.lp
+INFO:gurobipy.gurobipy:Reading time = 0.02 seconds
+INFO:gurobipy.gurobipy:: 11009 rows, 2816 columns, 51968 nonzeros
+INFO:gurobipy.gurobipy:Set parameter PoolSearchMode to value 2
+INFO:gurobipy.gurobipy:Set parameter PoolSolutions to value 1

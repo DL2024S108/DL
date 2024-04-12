@@ -1,0 +1,7 @@
+Initial seed 0x9BA17536
+DL distinguisher for 9 rounds of TWINE
+Input difference: 	 0000000000000004
+Output difference: 	 0005000000000000
+Average probability = 2^(-5.8208)
+Number of experiments thrown = 2^28
+Number of successes returned = 5936076
